@@ -1,0 +1,59 @@
+.outer{
+    position: relative;
+}
+
+.btn{
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #668ad8;
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+    position: relative;
+    top: 10em;
+    margin: 5em; 
+    /* left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    width: 50px; */
+}
+
+.btn:active{
+    /* ボタンクリック時 */
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+    border-bottom: none;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th, td{
+    border: solid 1px;
+    width: 20em;
+    height: 2em;
+    text-align: center;
+}
+
+.send_btn{
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #668ad8;
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+    position: relative;
+}
+
+.send_btn:active{
+    /* ボタンクリック時 */
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+    border-bottom: none;
+}

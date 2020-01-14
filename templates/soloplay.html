@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css')}}">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <form action="/soloplay/evaluate" method="POST">
+        <input type="text" name="answear" id='input_' size="3" style="width: 400px; height: 30px; font-size: 20pt">
+        <button id="send" style="width: 80px; height: 40px;">回答</button>
+    </form>
+    </br>
+    </br>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/soloplay.js')}}"></script>
+
+
+    <table align="center" id="result">
+        <tbody>
+            <tr>
+                <td>回答</td>
+                <td>結果</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
